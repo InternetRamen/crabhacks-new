@@ -1,0 +1,15 @@
+.box {
+    @apply relative bg-[#ffde7c] rounded-2xl border border-black border-opacity-20 bg-opacity-90 overflow-hidden shadow-inner;
+}
+
+body::before {
+    @apply w-full h-full content-[''] absolute bg-[size:20px_20px] bg-[image:linear-gradient(to_right,grey_1px,transparent_1px),linear-gradient(to_bottom,grey_1px,transparent_1px)] rounded-xl opacity-10;
+}
+/* 
+.g {
+    grid-template-rows: 200px;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
