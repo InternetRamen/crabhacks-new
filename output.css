@@ -1450,6 +1450,10 @@ details.collapse summary::-webkit-details-marker{
   grid-row: span 6 / span 6
 }
 
+.row-span-5{
+  grid-row: span 5 / span 5
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto
