@@ -1159,6 +1159,55 @@ details.collapse summary::-webkit-details-marker{
   margin-inline-start: calc(var(--border-btn) * -1)
 }
 
+.link-primary{
+  --tw-text-opacity: 1;
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)))
+}
+
+@supports (color:color-mix(in oklab,black,black)){
+  @media (hover:hover){
+    .link-primary:hover{
+      color: color-mix(in oklab,var(--fallback-p,oklch(var(--p)/1)) 80%,black)
+    }
+
+    .link-secondary:hover{
+      color: color-mix(in oklab,var(--fallback-s,oklch(var(--s)/1)) 80%,black)
+    }
+
+    .link-accent:hover{
+      color: color-mix(in oklab,var(--fallback-a,oklch(var(--a)/1)) 80%,black)
+    }
+
+    .link-neutral:hover{
+      color: color-mix(in oklab,var(--fallback-n,oklch(var(--n)/1)) 80%,black)
+    }
+
+    .link-info:hover{
+      color: color-mix(in oklab,var(--fallback-in,oklch(var(--in)/1)) 80%,black)
+    }
+  }
+}
+
+.link-secondary{
+  --tw-text-opacity: 1;
+  color: var(--fallback-s,oklch(var(--s)/var(--tw-text-opacity)))
+}
+
+.link-accent{
+  --tw-text-opacity: 1;
+  color: var(--fallback-a,oklch(var(--a)/var(--tw-text-opacity)))
+}
+
+.link-neutral{
+  --tw-text-opacity: 1;
+  color: var(--fallback-n,oklch(var(--n)/var(--tw-text-opacity)))
+}
+
+.link-info{
+  --tw-text-opacity: 1;
+  color: var(--fallback-in,oklch(var(--in)/var(--tw-text-opacity)))
+}
+
 .link:focus{
   outline: 2px solid transparent;
   outline-offset: 2px
@@ -1647,6 +1696,16 @@ details.collapse summary::-webkit-details-marker{
 .text-slate-900{
   --tw-text-opacity: 1;
   color: rgb(15 23 42 / var(--tw-text-opacity))
+}
+
+.text-primary{
+  --tw-text-opacity: 1;
+  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)))
+}
+
+.text-primary-content{
+  --tw-text-opacity: 1;
+  color: var(--fallback-pc,oklch(var(--pc)/var(--tw-text-opacity)))
 }
 
 .underline{
