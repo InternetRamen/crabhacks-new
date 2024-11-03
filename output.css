@@ -1406,6 +1406,10 @@ details.collapse summary::-webkit-details-marker{
   overflow-y: auto
 }
 
+.invisible{
+  visibility: hidden
+}
+
 .collapse{
   visibility: collapse
 }
@@ -1652,6 +1656,12 @@ details.collapse summary::-webkit-details-marker{
 .drop-shadow-glow{
   --tw-drop-shadow: drop-shadow(0 0px 20px rgba(255,255, 255, 0.35)) drop-shadow(0 0px 65px rgba(255, 255,255, 0.2));
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)
+}
+
+@media not all and (min-width: 768px){
+  .max-md\:hidden{
+    display: none
+  }
 }
 
 @media (min-width: 640px){
