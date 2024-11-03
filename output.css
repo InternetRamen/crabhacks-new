@@ -1442,16 +1442,12 @@ details.collapse summary::-webkit-details-marker{
   grid-row: span 3 / span 3
 }
 
-.row-span-5{
-  grid-row: span 5 / span 5
+.row-span-4{
+  grid-row: span 4 / span 4
 }
 
 .row-span-6{
   grid-row: span 6 / span 6
-}
-
-.row-span-4{
-  grid-row: span 4 / span 4
 }
 
 .mx-auto{
@@ -1669,12 +1665,12 @@ details.collapse summary::-webkit-details-marker{
     grid-column: span 3 / span 3
   }
 
-  .md\:row-span-5{
-    grid-row: span 5 / span 5
-  }
-
   .md\:row-span-3{
     grid-row: span 3 / span 3
+  }
+
+  .md\:row-span-5{
+    grid-row: span 5 / span 5
   }
 
   .md\:row-start-4{
@@ -1687,10 +1683,6 @@ details.collapse summary::-webkit-details-marker{
 
   .md\:row-start-7{
     grid-row-start: 7
-  }
-
-  .md\:block{
-    display: block
   }
 
   .md\:flex{
