@@ -13,6 +13,10 @@ h1 {
 body::before {
     @apply w-full h-full content-[''] absolute bg-[size:20px_20px] bg-[image:linear-gradient(to_right,grey_1px,transparent_1px),linear-gradient(to_bottom,grey_1px,transparent_1px)] rounded-xl opacity-10;
 }
+
+.glow {
+    text-shadow: #ff8387 0 0 5px;
+}
 /* 
 .g {
     grid-template-rows: 200px;
