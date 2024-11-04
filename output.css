@@ -1524,25 +1524,6 @@ details.collapse summary::-webkit-details-marker{
   font-weight: 500
 }
 
-.text-primary{
-  --tw-text-opacity: 1;
-  color: var(--fallback-p,oklch(var(--p)/var(--tw-text-opacity)))
-}
-
-.text-\[\#ff838\]{
-  color: #ff838
-}
-
-.text-\[\#ff8387\]{
-  --tw-text-opacity: 1;
-  color: rgb(255 131 135 / var(--tw-text-opacity))
-}
-
-.text-\[\#ffa6a9\]{
-  --tw-text-opacity: 1;
-  color: rgb(255 166 169 / var(--tw-text-opacity))
-}
-
 .text-\[\#ff5157\]{
   --tw-text-opacity: 1;
   color: rgb(255 81 87 / var(--tw-text-opacity))
